@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Open-sans", sans-serif;
+}
+
+.fullCard {
+    display: block;
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px #000000 solid;
+    border-radius: 5px;
+}
+
+.firstBar {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.logo {
+    display: block;
+    width: 20%;
+}
+
+.logo img {
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+.infoLines {
+    display: block;
+    width: 80%;
+    margin-left: 20px;
+}
+
+.firstLine {
+    display: flex;
+    flex-wrap: no-wrap;
+    height: 35%;
+}
+
+.name,
+.address,
+.date {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.address {
+    font-weight: 2;
+    font-style: italic;
+}
+
+.secondLine {
+    height: 45%;
+}
+
+.thirdLine {
+    height: 20%;
+    color: #63018a;
+}
+
+.banner {
+    display: block;
+    width: 100%;
+}
+
+.banner img {
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+.lastBar {
+    display: flex;
+    width: 70%;
+    margin: 15px auto 0;
+}
+
+.btn {
+    display: flex;
+    flex-wrap: no-wrap;
+    width: 25%;
+}
+
+.icon {
+    font-size: 25px;
+    margin-right: 20px;
+    color: #000000;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.like {
+    margin-top: 10px;
+}
+
+.likeC {
+    color: #ff0000;
+}
+
+.shareC {
+    color: #903f97;
+}
+
+.saveC {
+    color: #007500;
+}
+
+.pBug {
+    margin-left: 45px;
+    margin-top: -27px;
+}
